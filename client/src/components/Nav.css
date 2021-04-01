@@ -1,0 +1,71 @@
+
+.nav {
+    background-image: radial-gradient(circle,  #10334b , #212133 , #000);
+    color:  white;
+    align-items: center;
+    padding-top: 3px;
+
+}
+.nav-top{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.nav-lft{
+    margin-left: 25px;
+    align-items: center; 
+}
+.nav-lft > img{
+    height: 50px;
+    margin-left: 20px;
+    text-align: center;
+    align-items: center;
+}
+.nav-rgt{
+    align-items: center;
+    display: flex;
+    margin-right: 20px;
+    margin-left: 1300px;
+}
+.nav-btm{
+    text-align: center;
+    margin-top: 0%;
+}
+.wlt_btn{
+    margin-left: 20px;
+    margin-right: 5%;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    height: 50px;
+    width: 200px;
+}
+.per_btn{
+    background-color: transparent;
+    border: none;
+    margin-right: 15px;
+    color: white;
+}
+.hr_line{
+    opacity: 0.1;
+}
+.eth-logo{
+    height: 30px;
+    width: 30px;
+}
+.int_data{
+    border: 1 solid black;
+    background-color: transparent;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    margin-top: 12px;
+    height: 30px;
+    width: 400px;
+    font-size: 25px;
+    color: white;
+    padding: 2px;
+}
+.int_data:focus{
+    outline: none;
+}
